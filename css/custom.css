@@ -54,12 +54,12 @@ body {
 
 .cards:hover > .card:hover {
   transform: scale(1.15);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(64, 0, 87, 0.3);
   z-index: 10;
 }
 
 .cards:hover > .card:not(:hover) {
-  opacity: 0.9;
+  opacity: 1;
 }
 
 @media only screen and (max-width: 1200px) {
